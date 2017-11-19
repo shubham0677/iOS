@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hcL-Rz-3XR">
-                                <rect key="frame" x="16" y="40" width="343" height="447.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hcL-Rz-3XR">
+                                <rect key="frame" x="16" y="40" width="343" height="565.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAa-so-PQx">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -49,15 +49,19 @@
                                         <rect key="frame" x="0.0" y="104.5" width="343" height="343"/>
                                         <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="Sef-k8-26h" secondAttribute="height" multiplier="1:1" id="hRq-ez-d38"/>
+                                            <constraint firstAttribute="width" secondItem="Sef-k8-26h" secondAttribute="height" multiplier="1:1" id="8a0-6v-ZuQ"/>
                                         </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="UXk-P5-DuT" appends="YES" id="NWS-Ys-nR7"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6SK-LH-0fk" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="455.5" width="200" height="110"/>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Sef-k8-26h" secondAttribute="trailing" id="Law-zx-HL5"/>
+                                    <constraint firstItem="Sef-k8-26h" firstAttribute="leading" secondItem="hcL-Rz-3XR" secondAttribute="leading" id="ajz-6E-o6i"/>
                                     <constraint firstAttribute="trailing" secondItem="K1C-Zs-4Uc" secondAttribute="trailing" id="okb-OE-muH"/>
                                 </constraints>
                             </stackView>
