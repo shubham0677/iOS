@@ -1,11 +1,11 @@
 
 Demo iOS app I made following apple's official tutorial to learn key concepts of iOS development.
 
-##The app supports:
-- Viewing meals in a table view using custom table cell
-- Adding a meal
-- Deleting a meal
-- Editing a meal
+### Features:
+- View meals in a table view using custom table cell
+- Add a meal
+- Delete a meal
+- Edit a meal
 - Save and load meals using NSCoding protocol
 
-![Alt text](/Screenshots/Simulator Screen Shot Nov 21, 2017, 10.01.26 AM.jpg?raw=true "")
+<img src="Screenshots/1.png" width="160" height="400"/> <img src="Screenshots/2.png" width="160" height="400"/> <img src="Screenshots/3.png" width="160" height="400"/> <img src="Screenshots/4.png" width="160" height="400"/> <img src="Screenshots/5.png" width="160" height="400"/>
